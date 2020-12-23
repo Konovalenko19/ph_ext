@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "ph_ext",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://rt.pornhub.com/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
